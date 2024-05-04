@@ -17,5 +17,46 @@ body, html{
     color: white;
 }
 
+.logo {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+span#burger{
+
+    display: block;
+    background-color: var(--box);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+span#burger:hover{
+    background-color: white;
+    color:  black;
+}
+
+.menu{
+    display: block;
+}
+
+.lista {
+    display: inline;
+    padding: 10px;
+}
+
+.lista > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
 
 
